@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">" AdvancePushyabe"</string>
+    <string name="action_info">User info</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_favorite">Favorite</string>
+
+    <string name="facebook_app_id">627659640772834</string>
+    <string name="action_settings">Settings</string>
+    <string name="fb_login_protocol_scheme">fb627659640772834</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

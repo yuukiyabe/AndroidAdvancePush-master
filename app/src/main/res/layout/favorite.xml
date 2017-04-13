@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="お気に入り一覧"
+        android:id="@+id/textView22"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp" />
+
+    <ListView
+        android:id="@+id/lstShopFavorite"
+        android:layout_width="fill_parent"
+        android:layout_height="353dp" >
+    </ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="お気に入り保存"
+        android:id="@+id/btnFavoriteSave"
+        android:layout_gravity="center_horizontal" />
+
+    <android.support.design.widget.FloatingActionButton android:id="@+id/onHomeFavFab"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end" android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_dialer" />
+</LinearLayout>
